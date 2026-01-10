@@ -20,6 +20,7 @@ Make sure you have the following tools installed and accessible in your PATH:
 - [subfinder](https://github.com/projectdiscovery/subfinder)
 - [assetfinder](https://github.com/tomnomnom/assetfinder)
 - [findomain](https://github.com/Edu4rdSHL/findomain)
+- [amass](https://github.com/owasp-amass/amass)
 - [httprobe](https://github.com/tomnomnom/httprobe)
 - [waybackurls](https://github.com/tomnomnom/waybackurls)
 - [gau](https://github.com/lc/gau)
@@ -70,6 +71,10 @@ Output File Name: example.com-assetfinder.txt
 ----------FINDOMAIN OUTPUT FOR example.com----------
 Subdomains Found: 38
 Output File Name: example.com-findomain.txt
+
+----------AMASS OUTPUT FOR example.com----------
+Subdomains Found: 100
+Output File Name: example.com-amass.txt
 
 SORTING UNIQUE SUBDOMAINS TO A NEW FILE...
 
@@ -132,7 +137,7 @@ ReconKit/
 
 | Category                | Tools Used                                  |
 |-------------------------|---------------------------------------------|
-| Subdomain Discovery     | subfinder, assetfinder, findomain           |
+| Subdomain Discovery     | subfinder, assetfinder, findomain, amass    |
 | Live Verification       | httprobe                                    |
 | URL Discovery           | waybackurls, gau                            |
 | Parameter Extraction    | unfurl                                      |
