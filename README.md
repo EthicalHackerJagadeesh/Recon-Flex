@@ -1,6 +1,4 @@
-# Recon Flex
-
-[ R E C O N  F L E X ]
+# [ R E C O N  F L E X ]
 
 Advanced Reconnaissance Framework
 
