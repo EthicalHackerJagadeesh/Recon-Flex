@@ -99,7 +99,7 @@ run_recon() {
     fi
     
     # Amass (Passive Mode)
-    amass enum -passive -d "${target}" -o "${target}-amass.txt" > /dev/null 2>&1
+    amass enum -d "${target}" -passive -o "${target}-amass.txt" > /dev/null 2>&1
     if [[ -s "${target}-amass.txt" ]]; then
         echo "----------AMASS OUTPUT FOR ${target}----------"
         echo "Subdomains Found: $(wc -l < "${target}-amass.txt")"
